@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border: 1px solid tomato;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-items {
+    display: flex;
+    gap: 2rem;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 1rem auto;
+    border: 1px solid tomato;
+    height: 80vh;
+   
+}
+
+.footer {
+    max-width: 1100px;
+    margin: 1rem auto;
+    border: 1px solid tomato;
+    height: 300px;
+}
